@@ -1,0 +1,4 @@
+<launch>
+    <include file="$(find realsense2_camera)/launch/rs_camera.launch" />
+    <node name="realsense_test" pkg="realsense_test" type="realsense_test" output="screen" />
+</launch>
