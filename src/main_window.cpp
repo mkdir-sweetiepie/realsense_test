@@ -48,7 +48,7 @@ MainWindow::~MainWindow()
 void MainWindow::slotUpdateImg()
 {
   clone_mat = qnode.imgRaw->clone();                                            // 원본 이미지 복사
-  cv::resize(clone_mat, clone_mat, cv::Size(640, 360), 0, 0, cv::INTER_CUBIC);  // 이미지 크기 조정
+  cv::resize(clone_mat, clone_mat, cv::Size(640, 480), 0, 0, cv::INTER_CUBIC);  // 이미지 크기 조정
   // cv::cvtColor(clone_mat, gray_clone, cv::COLOR_BGR2GRAY);  // BGR 이미지를 그레이스케일로 변환
 
   QImage RGB_im((const unsigned char*)(clone_mat.data), clone_mat.cols, clone_mat.rows, QImage::Format_RGB888);
