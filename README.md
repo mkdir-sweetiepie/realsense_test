@@ -5,13 +5,18 @@
 **Source** : https://github.com/mkdir-sweetiepie/realsense_test (branch : master)
 
 ## Description
-You can check if the camera is working well 
+You can check if the realsense camera is working well 
 
-## How to Use
+## Build & Usage
 ### build from source code
 ```bash
 cd ~/${workspace_name}_ws/src
 git clone https://github.com/mkdir-sweetiepie/realsense_test.git
 cd ..
 catkin_make
+```
+
+### How to use 
+```
+roslaunch realsense_test realsense_test.launch 
 ```
