@@ -4,6 +4,12 @@
 **Bug / feature tracker** : https://github.com/mkdir-sweetiepie/realsense_test/issues                 
 **Source** : https://github.com/mkdir-sweetiepie/realsense_test (branch : master)
 
+## Description
+You can check if the camera is working well 
+
+## Table of Contents
+- [Build & Usage](#build--usage)
+
 ## How to Use
 ### build from source code
 ```bash
