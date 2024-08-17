@@ -7,9 +7,6 @@
 ## Description
 You can check if the camera is working well 
 
-## Table of Contents
-- [Build & Usage](#build--usage)
-
 ## How to Use
 ### build from source code
 ```bash
